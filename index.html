@@ -29,7 +29,7 @@
       fetch("navbar-index.html")
         .then((response) => response.text())
         .then((data) => {
-          document.getElegit add -A && git commit -m "Describe your changes" && git pushmentById("nav-placeholder").innerHTML = data;
+          document.getElementById("nav-placeholder").innerHTML = data;
         })
         .catch((error) => {
           console.error("Error loading the navigation:", error);
